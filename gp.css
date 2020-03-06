@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans',sans-serif  ;
+    font-size: 10px;
+    
+    background-color: #edeef0 ;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+
+}
+nav ul li{
+margin: 0 20px;
+}
+.logo-text{
+    font-size: 30px;
+    font-weight: 700;
+    color: #f05136; 
+}
+.navlink{
+    font-size: 1.8 em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+header div p{
+    font-size: 2.5 em;
+    font-weight: 200;
+}
+#Home{
+    background: black;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1,h3,h4{
+    font-weight:800 ;
+    align-items: center;
+}
+h1{
+    font-size: 5em;
+    align-items: center;
+}
+h2{
+    font-size: 4em;
+    font-weight: 500;
+}
+h3{
+    font-size: 2.5em;
+}
+h4{
+    font-size: 1.8em;
+}
+
+.link-button{
+text-decoration: none;
+text-align: center;
+background-color: #f05136;
+cursor: pointer;
+font-weight:200 ;
+letter-spacing: 0.5px;
+font-size: 1.8em;
+color: white;
+border: radius 5%; ;
+border-color: black;
+}
+h2{ 
+    font-weight: 500;
+}
+
+#Bio img{
+    width: 250px;
+    height: 250;
+    border-radius: 50%;
+    margin: 100px;
+    offset-rotate: 90 ;
+}
+#Bio p{
+    font-size: 1.5em;
+}
+#Bio{
+    display:flex;
+    align-items: center;
+
+}
+#bio article *{
+    margin:20px;
+}
+.break{
+    display: break;
+}
+hr{
+    width: 400px;
+}
+#Portfolio
+{
+background-color: black;
+color: white;
+
+}
+#Portfolio , #Skills{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+}
+
+}
+#Portfolio h3,p,hr{
+    margin-bottom: 20px;
+}
+#Portfolio div{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#Portfolio div article{
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+progress[value]:::-webkit-progress-bar{
+background-color: grey;
+border-radius: 2px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
+
+}
+
+#Portfolio div article *{
+    padding: 0 5px;
+}
+
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#skills-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Skills ul{
+    list-style: none;
+}
+#Skills ul li{
+    margin: 10px 0;
+}
+#Contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+#Contact form input:last-child{
+    margin-top: 30px;
+}
+#Contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
